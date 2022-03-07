@@ -1,0 +1,130 @@
+body {
+    background-image: url("background_Cat.jpg");
+}
+.heade{
+    
+    height: 50px;
+}
+
+.h3 {
+    color: #BB6464;
+}
+
+.logo{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 4px;
+}
+.logo_name{
+    height: 50px;
+    width: 320px;
+    position: relative;
+    bottom: 4px;
+    
+}
+
+
+.menu_up{
+    
+    background-color: #04293A;
+    height: 50px;
+    
+}
+
+ul {
+    display: flex;
+   justify-content: space-around;
+  }
+
+
+li{
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFF0;
+}
+  li a:hover {
+    background-color: #080101;
+  }
+
+  .registro{
+    display: inline-block;
+    position: relative;
+left: 68%;
+bottom:10px;
+}
+
+
+.ini, .reg {
+    padding: 4px 5px 4px 5px;
+    position: relative;
+    
+   color: #04293A;
+  
+}
+  
+  .contenedor {
+    justify-content: center;
+    text-align: center;
+  }
+  .datos {
+    margin-left: 25%;
+    margin-bottom: 10px;
+    width: 50%;
+    display: inline-block;
+  }
+  .datos .direccion {
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+  .datos .horarios {
+    float: right;
+    margin-right: 25px;
+  }
+  .card {
+    margin: 20px;
+    background-color: #FFFFF0;
+    display: inline-block;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 20%;
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  .rellenos {
+    margin-left: 25%;
+    width: 50%;
+    border: 1px solid black;
+    background-color: #FFFFF0;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    /* background-color: #d291bc; */
+  }
+  .rellenos .relleno {
+    padding: 10px;
+  }
+  .alimento {
+    font-size: 20px;
+  }
+  
+
+  .btn {
+    color: #fff;
+    background: #246eb9;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 10px 10px;
+    border-radius: 10px;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }

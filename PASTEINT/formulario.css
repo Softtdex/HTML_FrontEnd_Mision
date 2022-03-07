@@ -1,0 +1,103 @@
+body {
+    background-image: url("background_form.jpg");
+}
+.heade{
+    
+    height: 50px;
+}
+
+.h3 {
+    color: #BB6464;
+}
+
+.logo{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 4px;
+}
+.logo_name{
+    height: 50px;
+    width: 320px;
+    position: relative;
+    bottom: 4px;
+    
+}
+
+
+.menu_up{
+    
+    background-color: #04293A;
+    height: 50px;
+    
+}
+
+ul {
+    display: flex;
+   justify-content: space-around;
+  }
+
+
+li{
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFF0;
+}
+
+.logoP{
+    padding: 10px; margin: 10px; border: 2px solid black; float: right; width: 500px; }
+
+  li a:hover {
+    background-color: #080101;
+  }
+
+  .registro{
+    display: inline-block;
+    position: relative;
+left: 68%;
+bottom:10px;
+}
+
+
+.ini, .reg {
+    padding: 4px 5px 4px 5px;
+    position: relative;
+    
+   color: #04293A;
+  
+}
+
+
+.div_formulario{
+border: 1px solid black;
+width: 250px;
+height: 410px;
+text-align: center;
+position: relative;
+top:50px;
+left:500px;
+}
+
+ label 
+{
+    display: block;
+    margin-top: 10px;
+}
+
+
+.lab{
+    display: inline-flex;
+margin-bottom: 0px;
+}
+
+button{
+    display: inline-block;
+    position: relative;
+    bottom:5px;
+    top: 7px;
+    margin-left: 0px 5px 0px 5px;
+}

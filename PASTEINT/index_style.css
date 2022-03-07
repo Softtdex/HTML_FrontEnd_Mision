@@ -1,0 +1,112 @@
+body {
+    background-image: url("background.jpg");
+}
+
+.heade{
+    
+    height: 50px;
+}
+
+.logo{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 4px;
+}
+.logo_name{
+    height: 50px;
+    width: 320px;
+    position: relative;
+    bottom: 4px;
+    
+}
+.logoP{
+    padding: 10px; margin: 10px; border: 2px solid black; float: right; width: 500px; }
+ 
+
+
+.registro{
+    display: inline-block;
+    position: relative;
+left: 68%;
+bottom:10px;
+}
+
+
+.ini, .reg {
+    padding: 4px 5px 4px 5px;
+    position: relative;
+    
+   color: #04293A;
+  
+}
+
+.menu_up{
+    
+    background-color: #04293A;
+    height: 50px;
+    
+}
+
+ul {
+    display: flex;
+   justify-content: space-around;
+  }
+
+
+li{
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 224);
+}
+.mision{
+    border: 1px solid #04293A;
+    background-image: url("back_index.jpg");
+    height: 1000px;
+    
+    background-size: 100%;
+
+}
+
+h2{
+    padding: 10px; margin: 10px; float: left; width: 500px;
+    margin-top: 10px;
+    color: #ECB365;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.catalago{
+    display: inline-block;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+
+
+    color: #04293A;
+    font-size: 16px;
+     line-height: 16px; 
+     padding: 6px; 
+     border-radius: 10px;
+      font-family: Georgia, serif;
+       font-weight: normal;
+        text-decoration: none;
+         font-style: normal; 
+         font-variant: normal; 
+         text-transform: none;
+          background-image: linear-gradient(to right, rgb(236, 179, 101) 0%, rgb(236, 179, 101) 50%, rgb(236, 179, 101) 100%); 
+          box-shadow: rgb(4, 28, 50)  5px 5px 15px 5px; border: 2px solid rgb(48, 11, 107); display: inline-block;
+   
+
+}
+
+
+.social_media{
+    color:#ECB365;
+    border: 1px solid #04293A;
+    background-color: #04293A;
+}

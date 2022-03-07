@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= <device-width>, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <link rel ="stylesheet" type="text/css" href="normalize.css">
+    
+
+    <title>PASTEINT</title>
+</head>
+<body>
+    
+<header>
+<div class="heade">
+
+<img class="logo" src="logo.png" alt="logo">
+<img class="logo_name" src="logo_name.png" alt="logo">
+
+
+<div class="registro">
+    
+   
+        <a  class="reg"href="#">REGISTRATE</a>
+        <a class="ini" href="#">INICIA SESION</a>
+        
+   
+</div>
+
+</div>
+</header>
+
+<nav>
+<div class="menu_up">
+<ul>
+    <li><a href="index.html">INICIO</a></li>
+    <li><a href="formulario.html">PIDELO AQUI</a></li>
+    <li><a href="compras.html">VER PEDIDOS</a></li>
+    <li><a href="inventario.html">INVENTARIOS</a></li>
+</ul>
+</div>
+</nav>
+<div class="logoP">
+    <img src="Pasteint.png" >
+
+</div>
+    <section>
+        
+        
+        <div class="div_formulario">
+            <form>
+
+                <div class="formusu">
+                    
+                    <h2>Haga su pedido</h2>
+                        <label>Nombre</label>
+                         <input type="text" id="nombre"  name="nombre" placeholder="escriba su nombre" required> 
+                         <label>Telefono</label>
+                         <input type="tel" id="telefono" name="telefono"placeholder="numero de telefono" required>
+                         <label>Correo</label>
+                         <input type="email" id="correo" name ="correo" placeholder="cual es su correo" required>
+                         <label>¿Que pastel desea?</label>
+                         
+<select name="OS">
+   <option value="1">Pastel Chocolate</option> 
+   <option value="2">Pastel Vainilla</option> 
+   <option value="3">Frutas Locas</option>
+   <option value="10">PAY</option> 
+   
+</select>
+                       
+                       
+                </div>
+                 <div class="formusabor">
+                       
+                     <p>Eliga el sabor de relleno del pan de tu pastel</p>
+                     <select name="SA">
+                        <option value="1">Fresa</option> 
+                        <option value="2">Chocitos</option> 
+                        <option value="3">Durazno</option>
+                        <option value="4">Rompope</option>
+                        <option value="5">N/A</option>  
+                        
+                     </select>
+                      
+             
+                       
+                 </div>
+                  
+        
+                    
+
+                    <button type="reset"> Borrar </button>
+                    <button type="submit">Enviar</button>
+            </form>
+            
+           
+         </div>
+    </section>
+</body>
+</html>
